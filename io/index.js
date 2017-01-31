@@ -1,12 +1,3 @@
-
-/**
- * Debug.io
- * 
- * https://www.npmjs.com/package/colors
- * http://socket.io/docs/server-api
- * 
- */
-
 var io = require('socket.io')(8080);
 var mySpace = io.of('/hamed-space/');
 
