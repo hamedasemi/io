@@ -1,13 +1,13 @@
 {
-  "name": "debuger",
+  "name": "socket",
   "version": "0.0.0",
   "description": "",
-  "main": "io",
+  "main": "server",
   "private": true,
   "scripts": {
-    "io": "nodemon --require babel-register ./",
-    "client": "browser-sync start --server ./client/ --online --open=external",
-    "start": "npm run io & npm run client"
+    "socket:server": "nodemon --require babel-register ./",
+    "socket:client": "browser-sync start --server ./client/ --online --open=external",
+    "start": "npm run socket:server & npm run socket:client"
   },
   "author": "",
   "license": "ISC",
